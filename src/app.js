@@ -11,7 +11,7 @@ app.use( favicon( path.join( __dirname, 'favicon.ico' ) ) );
 app.use( '/assets', express.static( path.join( __dirname, 'assets' ) ) );
 
 app.use(cors({
-    origin: 'http://localhost:80', // Replace YOUR_XAMPP_PORT with your XAMPP port number
+    origin: 'https://kcp.42web.io', // Replace YOUR_XAMPP_PORT with your XAMPP port number
     optionsSuccessStatus: 200
 }))
 
